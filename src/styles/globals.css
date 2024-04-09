@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.Subdivisoes{
+  width:100px;
+  height: 100px;
+  background-color:white;
+  color: blue;
+}
+.preta{
+  color: black;
+}
+.branca{
+  color: white;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -15,6 +27,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -30,4 +43,5 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  
 }
