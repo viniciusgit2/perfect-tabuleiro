@@ -5,12 +5,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-
-    <div >
-      <Subdivisao/>
-      <Subdivisao/><Subdivisao/><Subdivisao/><Subdivisao/><Subdivisao/><Subdivisao/><Subdivisao/><Subdivisao/>
-    </div>
-  
+    <><div>
+     
+      <Subdivisao></Subdivisao> <Subdivisao></Subdivisao> <Subdivisao></Subdivisao> <Subdivisao></Subdivisao> <Subdivisao></Subdivisao> <Subdivisao></Subdivisao>
     
-  );
-}
+    </div><div><Subdivisao /> </div></>
+  )
+}Subdivisao
+ 
